@@ -1,75 +1,124 @@
 /* font family Quick */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body {
-  font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 /* common color */
-:root{
-    --white: #F7F7F7;
-    --orange: #FEA301;
-    --sky-lue: #01ACFD;
+:root {
+    --white: #f7f7f7;
+    --orange: #fea301;
+    --sky-lue: #01acfd;
     --black: #111111;
-    --cyan: #05D4DF;
-    --blue-violet: #5D58EF;
+    --cyan: #05d4df;
+    --blue-violet: #5d58ef;
 }
 
 /* =========== Nav BAr =========== */
 
-nav{
+nav {
     width: 1160px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding: 20px 0px;
 }
-.mobile_tab_nav{
+.mobile_tab_nav {
     display: none;
 }
 
-.logo_start{
+.logo_start {
     display: flex;
     column-gap: 11px;
     align-items: center;
 }
 
-.logo_start h2{
+.logo_start h2 {
     font-size: 2rem;
 }
-.nav_item ul{
+.nav_item ul {
     display: flex;
     column-gap: 32px;
     list-style: none;
     padding-left: 0px;
 }
-.nav_item ul a{
+.nav_item ul a {
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: bold;
 }
-.nav_item li:nth-child(1) a{
+.nav_item li:nth-child(1) a {
     color: var(--orange);
 }
-.nav_item li:nth-child(2) a{
+.nav_item li:nth-child(2) a {
     color: var(--sky-lue);
 }
-.nav_item li:nth-child(3) a{
+.nav_item li:nth-child(3) a {
     color: var(--cyan);
 }
-.nav_item li:nth-child(4) a{
-    color: var(--blue-violet)
+.nav_item li:nth-child(4) a {
+    color: var(--blue-violet);
 }
 
-.btn_div button{
+.btn_div button {
     padding: 10px 60px;
     font-size: 1.25rem;
     border-radius: 12px;
     background-color: var(--orange);
     border: none;
     cursor: pointer;
+}
+
+/* =============================== */
+
+/* =============================== */
+/* Banner section */
+
+.banner_section {
+    width: 1160px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+}
+.banner_text {
+    width: 100%;
+}
+.banner_text >h1{
+    font-size: 3.5rem;
+}
+.banner_text h1 :nth-child(1){
+    color: var(--orange);
+}
+.heading_span_2{
+    color: var(--sky-lue);
+}
+.banner_text >p{
+    font-size: 1.25rem;
+    margin: 32px 0px;
+}
+.banner_text >button{
+    font-size: 1.25rem;
+    padding: 12px 47px;
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.banner_img{
+    width: 100%;
+}
+.banner_img img{
+    width: 100%;
 }
 
 /* =============================== */

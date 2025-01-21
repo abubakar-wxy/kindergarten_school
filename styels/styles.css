@@ -1,0 +1,75 @@
+/* font family Quick */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+body {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* common color */
+:root{
+    --white: #F7F7F7;
+    --orange: #FEA301;
+    --sky-lue: #01ACFD;
+    --black: #111111;
+    --cyan: #05D4DF;
+    --blue-violet: #5D58EF;
+}
+
+/* =========== Nav BAr =========== */
+
+nav{
+    width: 1160px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.mobile_tab_nav{
+    display: none;
+}
+
+.logo_start{
+    display: flex;
+    column-gap: 11px;
+    align-items: center;
+}
+
+.logo_start h2{
+    font-size: 2rem;
+}
+.nav_item ul{
+    display: flex;
+    column-gap: 32px;
+    list-style: none;
+    padding-left: 0px;
+}
+.nav_item ul a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.nav_item li:nth-child(1) a{
+    color: var(--orange);
+}
+.nav_item li:nth-child(2) a{
+    color: var(--sky-lue);
+}
+.nav_item li:nth-child(3) a{
+    color: var(--cyan);
+}
+.nav_item li:nth-child(4) a{
+    color: var(--blue-violet)
+}
+
+.btn_div button{
+    padding: 10px 60px;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    background-color: var(--orange);
+    border: none;
+    cursor: pointer;
+}
+
+/* =============================== */

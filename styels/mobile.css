@@ -71,4 +71,30 @@
     }
 
     /* ============================== */
+
+
+    /* ============================== */
+    /* curriculum section */
+
+    .story_section{
+        /* width: calc(100% - 130px); */
+    }
+    .story_parent{
+        width: 100%;
+        padding: 0px;
+    }
+    .story_cart_parent{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .story_big_cart{
+        display: none;
+    }
+    .story_normal_cart{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 15px;
+    }
+
+    /* ============================== */
 }

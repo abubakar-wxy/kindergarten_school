@@ -267,7 +267,7 @@ nav {
 }
 .big_cart_text >h3{
     font-size: 24px;
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 35px;
 }
 .big_cart_text >p{
@@ -303,6 +303,9 @@ nav {
     padding: 10px 20px;
     border-radius: 47px;
     color: white;
+}
+.normal_cart_two{
+    background-color: #5D58F0 !important;
 }
 
 

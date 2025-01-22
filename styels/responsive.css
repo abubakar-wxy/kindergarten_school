@@ -25,6 +25,56 @@
     .nav_three_dot i {
         font-size: 32px;
     }
+
+    /* ============================== */
+    /* banner section */
+    .banner_section {
+        display: flex;
+        flex-direction: column-reverse;
+        width: calc(100% - 30px);
+        text-align: center;
+        padding: 25px 15px;
+    }
+    .banner_text {
+        margin-top: 50px;
+    }
+    .banner_text > h1 {
+        font-size: 46px;
+    }
+    .banner_text > p {
+        width: 80%;
+        font-size: 20px;
+        margin: 32px auto;
+    }
+
+    /* ============================== */
+    
+    
+    /* ============================== */
+    /* curriculum section */
+
+    .curriculum_raper {
+        width: 100%;
+    }
+    .curriculum_arrow {
+        display: none;
+    }
+    .curriculum_card_parent {
+        display: flex;
+        flex-direction: column;
+    }
+    .curriculum_raper h1 {
+        font-size: 46px;
+    }
+    .curriculum_card_parent > div {
+        margin: 0px 15px;
+        margin-bottom: 30px;
+        width: calc(100% - 84px);
+    }
+
+    /* ============================== */
+
+
 }
 
 /* Mobile responsive */
@@ -77,12 +127,27 @@
 
     /* ============================== */
 
+    /* ============================== */
+    /* curriculum section */
+
+    .curriculum_raper {
+        width: 100%;
+    }
+    .curriculum_arrow {
+        display: none;
+    }
+    .curriculum_card_parent {
+        display: flex;
+        flex-direction: column;
+    }
+    .curriculum_raper h1 {
+        font-size: 32px;
+    }
+    .curriculum_card_parent > div {
+        margin: 0px 15px;
+        margin-bottom: 30px;
+        width: calc(100% - 84px);
+    }
 
     /* ============================== */
-
-    
-
-    /* ============================== */
-
-
 }

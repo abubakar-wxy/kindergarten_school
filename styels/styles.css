@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
 
 /* Raleway font */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
     margin: 0px;
@@ -22,7 +21,7 @@ body {
     --black: #111111;
     --cyan: #05d4df;
     --blue-violet: #5d58ef;
-    --lime-green: #95B226;
+    --lime-green: #95b226;
 }
 
 /* =========== Nav BAr =========== */
@@ -80,6 +79,17 @@ nav {
     border: none;
     cursor: pointer;
 }
+
+.marq_text{
+    width: 1160px;
+    margin: 15px auto;
+}
+.marq_text marquee{
+    font-size: 18px;
+    color: var(--sky-lue);
+    font-weight: bold;
+}
+
 
 /* =============================== */
 
@@ -246,35 +256,35 @@ nav {
     width: 100%;
     background-color: white;
     border-radius: 16px;
-
 }
 .story_big_cart img {
     width: 100%;
     border-radius: 16px 16px 0px 0px;
 }
-.big_cart_text{
+.big_cart_text {
     padding: 38px;
     position: relative;
 }
-.big_cart_text >span{
+.big_cart_text > span {
     font-family: "Raleway", serif;
     position: absolute;
-    top: -30px;
-    background-color: #3CD8E8;
+    top: -27px;
+    background-color: #3cd8e8;
     padding: 15px 20px;
     border-radius: 47px;
     color: white;
+    font-size: 14px;
 }
-.big_cart_text >h3{
+.big_cart_text > h3 {
     font-size: 24px;
     margin-top: 35px;
     margin-bottom: 35px;
 }
-.big_cart_text >p{
+.big_cart_text > p {
     color: #666666;
     font-size: 15.5px;
+    line-height: 28px;
 }
-
 
 /* normal cart */
 .story_normal_cart {
@@ -294,19 +304,99 @@ nav {
 .normal_cart_text {
     margin: 30px;
     position: relative;
+    font-size: 15.5px;
 }
 .normal_cart_text span {
     font-family: "Raleway", serif;
     position: absolute;
-    top: -53px;
+    top: -50px;
     background-color: var(--lime-green);
     padding: 10px 20px;
     border-radius: 47px;
     color: white;
+    font-size: 13px;
 }
-.normal_cart_two{
-    background-color: #5D58F0 !important;
+.normal_cart_two {
+    background-color: #5d58f0 !important;
+}
+
+.view_btn{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.view_btn button{
+    font-size: 20px;
+    padding: 12px 47px;
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 
 /* =============================== */
+
+/* ============================== */
+/* Footer section */
+
+footer{
+    background-color: #01ACFD;
+}
+.footer_section{
+    width: 1160px;
+    margin: 0px auto;
+    padding: 100px 0px;
+    display: grid;
+    grid-template-columns: 40% repeat(2, 1fr);
+    grid-column-gap: 100px;
+}
+
+/* footer text part css */
+.footer_text >div{
+    display: flex;
+    align-items: center;
+}
+.footer_text >div img{
+    margin-right: 20px;
+    height: 95px;
+}
+.footer_text >div h1{
+    font-size: 42px;
+    color: white;
+}
+.footer_text p{
+    font-size: 20px;
+    color: white;
+    margin-top: 35px;
+    width: 90%;
+}
+
+
+/* About School section */
+.footer_about h3{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 32px;
+}
+.footer_about ul li{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    cursor: pointer;
+    list-style: none;
+}
+
+/* About School section */
+.footer_social h3{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 32px;
+}
+.footer_social div{
+    display: flex;
+    column-gap: 15px;
+    
+}
+/* ============================== */

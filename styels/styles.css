@@ -127,82 +127,78 @@ nav {
 /* Curriculum */
 .curriculum_section {
     background-image: url("/assets/bg.png");
-    background-repeat: no-repeat;
-
 }
 .curriculum_raper {
     width: 1160px;
     margin: 0px auto;
-    
 }
 .curriculum_raper h1 {
     font-size: 46px;
     text-align: center;
-    margin-top: 60px ;
-    margin-bottom: 80px ;
+    margin-top: 60px;
+    margin-bottom: 80px;
 }
-.curriculum_card_parent{
+.curriculum_card_parent {
     display: flex;
     justify-content: space-between;
     column-gap: 28px;
     margin-bottom: 80px;
 }
-.curriculum_card_parent >div{
+.curriculum_card_parent > div {
     border-radius: 18px;
     border: 1px solid rgba(0, 0, 0, 0.158);
     text-align: center;
     padding: 52px 26px;
 }
 
-.curriculum_card_parent div >h3{
+.curriculum_card_parent div > h3 {
     font-size: 25px;
     margin: 32px 0px;
 }
-.curriculum_card_parent div >p{
+.curriculum_card_parent div > p {
     font-size: 14px;
     line-height: 28px;
     color: #808080;
     margin-bottom: 33px;
 }
-.curriculum_card_parent div >span{
+.curriculum_card_parent div > span {
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
 }
 
-.kinder_cart{
-    box-shadow: inset 0px 100px 200px -200px rgba(100,200,255,1);
+.kinder_cart {
+    box-shadow: inset 0px 100px 200px -200px rgba(100, 200, 255, 1);
 }
-.kinder_cart img{
+.kinder_cart img {
     height: 126px;
 }
-.kinder_cart span{
+.kinder_cart span {
     color: var(--sky-lue);
 }
 .elementary_cart {
-    box-shadow: inset 0px 100px 200px -200px rgba(240,170,0,1);
+    box-shadow: inset 0px 100px 200px -200px rgba(240, 170, 0, 1);
 }
-.elementary_cart span{
+.elementary_cart span {
     color: var(--orange);
 }
 .middle_cart {
-    box-shadow: inset 0px 100px 200px -200px rgba(135,0,255,1);
+    box-shadow: inset 0px 100px 200px -200px rgba(135, 0, 255, 1);
 }
-.middle_cart span{
+.middle_cart span {
     color: var(--blue-violet);
 }
 
-.curriculum_arrow{
+.curriculum_arrow {
     text-align: center;
-    
 }
-.curriculum_arrow i:nth-child(1){
+.curriculum_arrow i:nth-child(1) {
     margin-right: 8px;
 }
-.curriculum_arrow i:nth-child(2){
+.curriculum_arrow i:nth-child(2) {
     margin-left: 8px;
 }
-.curriculum_arrow i{
+.curriculum_arrow i {
     background-color: var(--orange);
     font-size: 24px;
     border-radius: 100%;
@@ -210,6 +206,50 @@ nav {
     font-weight: bold;
     color: white;
     cursor: pointer;
+}
+
+/* =============================== */
+
+/* =============================== */
+/* Our Stories */
+
+.story_section {
+    background-image: url("/assets/bg.png");
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(254,163,1,0.3) 100%);
+}
+.story_parent {
+    width: 1160px;
+    margin: 0px auto;
+}
+.story_parent > h1 {
+    font-size: 46px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.story_cart_parent {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 20px;
+}
+.story_big_cart {
+    width: 100%;
+}
+.story_big_cart img {
+    width: 100%;
+}
+
+.story_normal_cart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+.story_normal_cart div {
+    width: 100%;
+    border-radius: 16px;
+}
+.story_normal_cart div > img {
+    width: 100%;
 }
 
 /* =============================== */
